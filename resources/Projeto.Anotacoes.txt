@@ -1,0 +1,27 @@
+Anotações do Projeto Lista Tarefas
+
+$ ng new curso-angular-lista-de-tarefas
+
+# Criar estrutura
+/src/scss/theme
+/src/scss/theme/_index.scss
+/src/scss/theme/_variables.scss
+/src/scss/layout
+/src/scss/component
+/src/scss/base
+/src/scss/_index.scss
+
+# Criar componente
+$ ng g c modules/to-do-list/pages/list
+
+# configurar rota
+app.routes.ts
+
+# 20250320
+$ ng g c modules/to-do-list/components/input-add-item
+$ ng g c modules/to-do-list/components/input-list-item
+
+[sweetalert2]
+https://sweetalert2.github.io/
+
+$ npm install sweetalert2
